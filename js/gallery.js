@@ -49,7 +49,7 @@ const images = [
 
 const styleLink = document.createElement('link');
 styleLink.rel = 'stylesheet';
-styleLink.href = '/css/styles.css';
+styleLink.href = './css/styles.css';
 document.head.appendChild(styleLink);
 
 const basicLightboxStyles = document.createElement('link');
