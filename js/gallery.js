@@ -96,7 +96,7 @@ const onGalleryCardClick = event => {
 
     const largeImageSrc = event.target.dataset.source;
 
-    const instance = basicLightbox.create(`<img src="${largeImageSrc} width="800" height="600">`);
+    const instance = basicLightbox.create(`<img src="${largeImageSrc}" width="800" height="600">`);
 
     instance.show();
 }
