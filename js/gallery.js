@@ -101,4 +101,4 @@ const onGalleryCardClick = event => {
     instance.show();
 }
 
-refs.galleryyList.addEventListener('click', onGalleryCardClick);
+refs.galleryList.addEventListener('click', onGalleryCardClick);
